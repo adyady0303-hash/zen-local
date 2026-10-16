@@ -1,0 +1,15 @@
+PUBLICARE GRATUITĂ ZEN LOCAL PE GITHUB
+
+PAGINA SITE-ULUI
+- Depozit nou: zen-local, public, în contul GitHub adyady0303-hash.
+- Încarcă în rădăcina depozitului conținutul acestui pachet.
+- Settings > Pages > Build and deployment > Deploy from a branch > main > /(root).
+- După publicare, pagina va fi: https://adyady0303-hash.github.io/zen-local/
+
+ARHIVA APLICAȚIEI
+- Nu încărca ZIP-ul de 163 MB în fișierele depozitului sau în Git.
+- Creează un Release cu tag v1.0.0.
+- Încarcă asset-urile Zen-Local-Windows-x64.zip și Zen-Local-Windows-x64.sha256.txt, apoi publică Release-ul.
+- Butonul de descărcare al site-ului pointează la ultimul Release publicat.
+
+Cost: planul GitHub Free este suficient pentru pagina publică și Release. Nu este necesar un domeniu propriu. Domeniul personal este opțional și poate costa separat.
