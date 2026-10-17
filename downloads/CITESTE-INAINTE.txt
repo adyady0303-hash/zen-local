@@ -1,18 +1,18 @@
-ZEN LOCAL — pachet descărcabil pentru Windows 64-bit
+ZEN LOCAL 1.0.1 — INSTALARE WINDOWS 64-BIT
 
-INSTALARE
-1. Extrage tot fișierul Zen-Local-Windows-x64.zip într-un folder.
-2. Deschide folderul extras și dă dublu clic pe Instaleaza_Zen_Local.vbs.
-3. Instalatorul copiază aplicația, creează pictograme pe desktop și în meniul Start, apoi o deschide.
-
-AI LOCAL
-Ollama trebuie instalat o singură dată de la https://ollama.com/download . Zen Local îl pornește automat când deschizi aplicația. Dacă nu este instalat un model, apasă „Descarcă modelul recomandat” în aplicație. Descărcarea modelului necesită internet și spațiu liber pe disc; generarea ulterioară rulează local.
-
-MICROFON
-Dictarea vocală folosește recunoașterea vocală a browserului și poate procesa vocea printr-un serviciu online. Permite accesul la microfon în Windows.
+INSTALARE RECOMANDATĂ
+1. Descarcă Zen-Local-Setup-1.0.1-x64.exe de pe site-ul Zen Local.
+2. Deschide fișierul și apasă „Instalează și deschide”.
+3. Instalatorul extrage automat aplicația, creează pictograme pe desktop și în meniul Start, apoi pornește Zen Local. Nu este nevoie să extragi manual vreun ZIP.
 
 DEZINSTALARE
-Rulează Dezinstaleaza_Zen_Local.vbs din folderul extras. Închide aplicația înainte. Ciornele locale și modelele Ollama sunt păstrate.
+Din meniul Start, deschide folderul Zen Local și alege „Dezinstalează Zen Local”. Ciornele locale și modelele Ollama sunt păstrate.
 
-PACHET
-Aplicația este pentru Windows 64-bit. Fișierele aplicației nu sunt semnate digital; Windows poate afișa un avertisment de editor necunoscut la prima pornire.
+AI LOCAL
+Ollama trebuie instalat separat de la https://ollama.com/download . Zen Local pornește Ollama când deschizi aplicația. Dacă nu ai un model instalat, descarcă modelul recomandat din aplicație. Descărcarea modelului cere internet și spațiu pe disc; generarea ulterioară rulează local.
+
+MICROFON
+Dictarea vocală folosește recunoașterea browserului și poate procesa vocea online. Permite accesul la microfon când ți se cere.
+
+VERIFICARE ȘI AVERTISMENT WINDOWS
+Instalatorul nu este semnat digital, astfel că Windows poate afișa un avertisment de editor necunoscut. Descarcă numai de la pagina oficială și compară SHA-256 cu fișierul furnizat lângă instalator.
