@@ -1,18 +1,21 @@
-ZEN LOCAL 1.0.1 — INSTALARE WINDOWS 64-BIT
+ZEN LOCAL 1.0.3 — INSTALARE WINDOWS 64-BIT
 
-INSTALARE RECOMANDATĂ
-1. Descarcă Zen-Local-Setup-1.0.1-x64.exe de pe site-ul Zen Local.
+INSTALARE
+1. Descarcă Zen-Local-Setup-1.0.3-x64.exe de pe pagina oficială.
 2. Deschide fișierul și apasă „Instalează și deschide”.
-3. Instalatorul extrage automat aplicația, creează pictograme pe desktop și în meniul Start, apoi pornește Zen Local. Nu este nevoie să extragi manual vreun ZIP.
-
-DEZINSTALARE
-Din meniul Start, deschide folderul Zen Local și alege „Dezinstalează Zen Local”. Ciornele locale și modelele Ollama sunt păstrate.
+3. Aplicația creează pictograme pe desktop și în meniul Start. Nu trebuie extras manual un ZIP.
 
 AI LOCAL
-Ollama trebuie instalat separat de la https://ollama.com/download . Zen Local pornește Ollama când deschizi aplicația. Dacă nu ai un model instalat, descarcă modelul recomandat din aplicație. Descărcarea modelului cere internet și spațiu pe disc; generarea ulterioară rulează local.
+Ollama se instalează separat și pornește automat odată cu Zen Local. Remapările simple sunt generate imediat, fără model AI. Pentru cereri complexe este necesar un model instalat; după descărcare, cererile AI sunt procesate local.
+
+GPC
+Verificarea integrată detectează probleme structurale comune, dar nu înlocuiește compilatorul. Compilează fiecare script în Zen Studio înainte să-l folosești.
 
 MICROFON
-Dictarea vocală folosește recunoașterea browserului și poate procesa vocea online. Permite accesul la microfon când ți se cere.
+Dictarea folosește serviciul browserului și poate procesa vocea online. Răspunsul vocal folosește vocea disponibilă în Windows.
+
+DEZINSTALARE
+În meniul Start, alege Zen Local → Dezinstalează Zen Local. Ciornele locale și modelele Ollama sunt păstrate.
 
 VERIFICARE ȘI AVERTISMENT WINDOWS
-Instalatorul nu este semnat digital, astfel că Windows poate afișa un avertisment de editor necunoscut. Descarcă numai de la pagina oficială și compară SHA-256 cu fișierul furnizat lângă instalator.
+Installerul nu este semnat digital. Compară SHA-256 cu fișierul descărcat separat de lângă installer.
