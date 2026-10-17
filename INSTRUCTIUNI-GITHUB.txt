@@ -4,14 +4,10 @@ PAGINA
 Site public: https://adyady0303-hash.github.io/zen-local/
 GitHub Pages folosește ramura main și folderul /(root).
 
-RELEASE WINDOWS 1.0.1
-Release-ul curent conține:
-- Zen-Local-Setup-1.0.1-x64.exe — instalator autonom de aproximativ 156 MiB.
-- Zen-Local-Setup-1.0.1-x64.sha256.txt — amprenta pentru verificare.
+RELEASE WINDOWS 1.0.3
+- Zen-Local-Setup-1.0.3-x64.exe — installer autonom de aproximativ 156 MiB.
+- Zen-Local-Setup-1.0.3-x64.sha256.txt — amprenta SHA-256.
 
-Instalatorul pune aplicația în profilul utilizatorului, creează pictograme pe desktop și în Start, adaugă o opțiune de dezinstalare și pornește Zen Local. Utilizatorul nu trebuie să extragă manual ZIP-ul.
-
-AI LOCAL
-Aplicația rulează pe Windows x64. Ollama și modelul AI se instalează separat. Instalatorul nu este semnat digital; Windows poate afișa „Editor necunoscut”.
+Aplicația rulează pe Windows x64. Ollama și modelele se instalează separat. Remapările simple sunt instantanee; cererile complexe folosesc modelul local. Verificarea GPC nu înlocuiește compilarea în Zen Studio. Installerul nu este semnat digital.
 
 GitHub Pages și Releases sunt gratuite în acest flux; nu este necesar un domeniu propriu.
