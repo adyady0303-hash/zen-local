@@ -1,17 +1,15 @@
-# Zen Local — publicare gratuită
+# Zen Local
 
-Acest depozit conține pagina publică GitHub Pages și fișierele mici de instalare. Arhiva Windows de 163 MB se publică separat ca asset într-un GitHub Release; nu o adăuga în istoricul Git.
+Pagina publică: https://adyady0303-hash.github.io/zen-local/
 
-## Setare GitHub Pages
+Acest depozit conține pagina GitHub Pages și fișierele text de instalare. Pachetul Windows este publicat separat în GitHub Releases, nu în istoricul Git.
 
-1. Creează un depozit public numit `zen-local` în contul `adyady0303-hash`.
-2. Încarcă în rădăcina depozitului fișierele din acest pachet.
-3. În Settings → Pages, alege Deploy from a branch, ramura `main` și folderul `/ (root)`.
-4. Creează un Release cu tag-ul `v1.0.0` și încarcă `Zen-Local-Windows-x64.zip` și `Zen-Local-Windows-x64.sha256.txt`.
-5. Publică Release-ul. Linkul de descărcare al site-ului folosește automat ultimul Release publicat.
+## Release curent: 1.0.1
 
-Adresa GitHub Pages va fi `https://adyady0303-hash.github.io/zen-local/`. Nu este necesar un domeniu plătit. Proiectul Diaspora AI nu este modificat.
+Asset-ul principal este `Zen-Local-Setup-1.0.1-x64.exe` (aproximativ 156 MiB), împreună cu fișierul SHA-256. Instalatorul autonom extrage aplicația, creează pictograme pe desktop și în meniul Start și pornește Zen Local. Nu este necesară extragerea manuală a unui ZIP.
 
-## Ce descarcă utilizatorul
+Aplicația este pentru Windows 64-bit. Ollama și modelul AI se instalează separat. Pachetul nu este semnat digital, astfel că Windows poate afișa un avertisment de editor necunoscut.
 
-Aplicația este pentru Windows x64 și necesită instalarea separată a Ollama. Pachetul nu include modele AI și nu este semnat digital. Generarea AI rulează local pe calculatorul utilizatorului.
+## GitHub Pages
+
+Pages folosește ramura `main` și folderul rădăcină `/`. Nu este necesar un domeniu plătit.
