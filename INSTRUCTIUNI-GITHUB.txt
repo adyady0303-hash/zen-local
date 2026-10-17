@@ -1,15 +1,17 @@
-PUBLICARE GRATUITĂ ZEN LOCAL PE GITHUB
+ZEN LOCAL — PUBLICARE ȘI RELEASE
 
-PAGINA SITE-ULUI
-- Depozit nou: zen-local, public, în contul GitHub adyady0303-hash.
-- Încarcă în rădăcina depozitului conținutul acestui pachet.
-- Settings > Pages > Build and deployment > Deploy from a branch > main > /(root).
-- După publicare, pagina va fi: https://adyady0303-hash.github.io/zen-local/
+PAGINA
+Site public: https://adyady0303-hash.github.io/zen-local/
+GitHub Pages folosește ramura main și folderul /(root).
 
-ARHIVA APLICAȚIEI
-- Nu încărca ZIP-ul de 163 MB în fișierele depozitului sau în Git.
-- Creează un Release cu tag v1.0.0.
-- Încarcă asset-urile Zen-Local-Windows-x64.zip și Zen-Local-Windows-x64.sha256.txt, apoi publică Release-ul.
-- Butonul de descărcare al site-ului pointează la ultimul Release publicat.
+RELEASE WINDOWS 1.0.1
+Release-ul curent conține:
+- Zen-Local-Setup-1.0.1-x64.exe — instalator autonom de aproximativ 156 MiB.
+- Zen-Local-Setup-1.0.1-x64.sha256.txt — amprenta pentru verificare.
 
-Cost: planul GitHub Free este suficient pentru pagina publică și Release. Nu este necesar un domeniu propriu. Domeniul personal este opțional și poate costa separat.
+Instalatorul pune aplicația în profilul utilizatorului, creează pictograme pe desktop și în Start, adaugă o opțiune de dezinstalare și pornește Zen Local. Utilizatorul nu trebuie să extragă manual ZIP-ul.
+
+AI LOCAL
+Aplicația rulează pe Windows x64. Ollama și modelul AI se instalează separat. Instalatorul nu este semnat digital; Windows poate afișa „Editor necunoscut”.
+
+GitHub Pages și Releases sunt gratuite în acest flux; nu este necesar un domeniu propriu.
